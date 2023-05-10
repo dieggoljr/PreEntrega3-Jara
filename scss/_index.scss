@@ -1,0 +1,47 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: bisque;
+
+  .imagenes-descargas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Main */
+.parrafo-1 {
+  text-align: center;
+  border: 30px;
+  padding: 30px 100px;
+  color: black;
+}
+.contenedor-1 {
+  border: 2px;
+  padding: 100px 25px 200px 25px;
+  height: 300px;
+  width: 500px;
+  overflow: hidden;
+  text-align: justify;
+  margin-left: 30px;
+  font-size: larger;
+}
+.contenedor {
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+}
+
+.imagen-izq {
+  display: inline-block;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.contenedor-1 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
